@@ -7,6 +7,12 @@
       "skillPath": "skills/find-skills/SKILL.md",
       "computedHash": "d31e234f0c90694a670222cdd1dafa853e051d7066beda389f1097c22dadd461"
     },
+    "gstack": {
+      "source": "garrytan/gstack",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "72f0777f9f3d09b43ae7d91b549b7d5a45dc9c7cb0fd54b06bb47ed80cf1e91b"
+    },
     "security-review": {
       "source": "affaan-m/everything-claude-code",
       "sourceType": "github",
