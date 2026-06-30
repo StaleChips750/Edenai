@@ -1,0 +1,31 @@
+{
+  "name": "google-docs-mcp",
+  "version": "1.0.0",
+  "description": "FastMCP server with 94 tools for Google Docs, Sheets, Drive, Gmail, and Calendar",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "google-docs-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "fastmcp": "^2.3.4",
+    "googleapis": "^144.0.0",
+    "markdown-it": "^14.1.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/markdown-it": "^14.1.2",
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
